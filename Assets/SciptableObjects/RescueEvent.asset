@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a93c304c7fbdf543a0c914b4745d6ea, type: 3}
+  m_Name: RescueEvent
+  m_EditorClassIdentifier: 
+  eventDescription: "The military knocked on the door, and it seemed like we could
+    finally escape. I can\u2019t wait to get out of here and not have to worry about
+    surviving from day to day."

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da31d1963ec3fa408d6211b328c9e51, type: 3}
+  m_Name: SomeoneHungry
+  m_EditorClassIdentifier: 
+  eventDescription: "I heard a lot of the gurgling sound recently, someone is probably
+    hungry since we have not eaten a lot everyday. I better go and check to make
+    sure everyone is not starving to death or doesn\u2019t have enough energy to
+    do anything."
+  shelterSituation: 2

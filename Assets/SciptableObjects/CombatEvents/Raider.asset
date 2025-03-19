@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc80dafd0be27b449aca6eb71d4202c, type: 3}
+  m_Name: Raider
+  m_EditorClassIdentifier: 
+  eventDescription: "There were loud bangs on the bunker door, and they told us to
+    give half of our resources to them. They threatened that if we didn\u2019t give
+    them, they would attempt to break the door and steal everything from us. Should
+    I open the door?"
+  acceptText: Just to make sure no one gets hurt, we open the door and give them
+    half of the resources that we have at the moment. This might seem too cowardly,
+    but it ensures everyone is safe.
+  diceChanceSucceedText: "They tried to open the door with everything they had, but
+    it stood firm. After a while, the sound completely stops. It seems like luck
+    is on our side, I don\u2019t know what will happen if they manage to get in the
+    bunker. "
+  diceChanceFailText: "They managed to open the door after a few tries, and they
+    started beating us up. I don\u2019t know why, but they stop after a while. They
+    are everything we have and left."
+  succeedChance: 0

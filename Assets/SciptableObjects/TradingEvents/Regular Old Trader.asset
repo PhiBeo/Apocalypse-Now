@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b278ccac19dcdd47a245bdf126f78af, type: 3}
+  m_Name: Regular Old Trader
+  m_EditorClassIdentifier: 
+  eventDescription: A travelling salesman somehow come and paid us a visit today.
+    They introduced themselve and said they have something for trade. Seem like the
+    end of the world can not stop some people
+  acceptTrading: We made a deal with the salesman and helped him wrap up his stuff.
+    He departed and slowly disappear in the fog.
+  refuseTrading: 'The trader was friendly, but they don''t have anything interested
+    to us. '
+  tradingType: 0

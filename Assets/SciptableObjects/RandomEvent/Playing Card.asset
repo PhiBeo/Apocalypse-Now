@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75680bac73da25441af50e53bbb9086f, type: 3}
+  m_Name: Playing Card
+  m_EditorClassIdentifier: 
+  eventDescription: We played a few rounds of card after dinner. It's nothing too
+    serious, just a way to pass the time. The lights flickered once while we were
+    playing, and everything got really quiet for a second. We all noticed, but nobody
+    said anything. I just went back to the game like nothing happened. The generator's
+    been holding up, but every little flicker makes my stomach knot up.

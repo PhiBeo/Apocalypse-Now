@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b278ccac19dcdd47a245bdf126f78af, type: 3}
+  m_Name: Item Trade
+  m_EditorClassIdentifier: 
+  eventDescription: A person come with some item to trade today. There are some interested
+    stuff that he have.
+  acceptTrading: The trade went well. He got what he needs and we got what we want
+    as well.
+  refuseTrading: It sads, but I have to say no since I think the items he what worth
+    more that what he can offer.
+  tradingType: 2

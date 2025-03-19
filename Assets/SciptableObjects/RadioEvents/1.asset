@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 229e62764deee5e4983aa75cff70ead1, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  eventName: The update on the current situation
+  eventDescription: "Hello Survivor, a war between America and Britain happened a
+    few days ago as you are aware. Approximately 70% of humanity had been wiped out
+    due to this event. We are still clueless about what is the current situation,
+    but will do our best to update the current situation.\r"
+  eventOrder: 1

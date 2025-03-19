@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da31d1963ec3fa408d6211b328c9e51, type: 3}
+  m_Name: SomeoneCrazy
+  m_EditorClassIdentifier: 
+  eventDescription: Oh god! someone mentally is not stable at the moment. Totally
+    understand, it is like we have been here for ages. It is better to keep an eye
+    on them just to make sure that nothing bad is going to happen. Maybe I should
+    go outside to find something to entertain us, like a deck of cards or those stress
+    toys.
+  shelterSituation: 3
