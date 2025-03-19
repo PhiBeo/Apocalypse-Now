@@ -24,10 +24,12 @@ public class CharacterUIManager : MonoBehaviour
     [SerializeField] private Button expeditionButton;
 
     private TimeManager timeManager;
+    private SurvivorManager survivorManager;
 
     private void Start()
     {
         timeManager = FindAnyObjectByType<TimeManager>();
+        survivorManager = FindAnyObjectByType<SurvivorManager>();
 
         timeManager.ProcessDay += UpdateStat;
 
@@ -37,12 +39,6 @@ public class CharacterUIManager : MonoBehaviour
         }
 
         UpdateStat();
-    }
-
-    private void Update()
-    {
-        if (!selectedSurvivor || selectedSurvivor.IsExpedition()) expeditionButton.interactable = false;
-        else expeditionButton.interactable = true;
     }
 
     public void UpdateStat()
@@ -64,7 +60,8 @@ public class CharacterUIManager : MonoBehaviour
             }
         }
 
-
+        if (survivorManager.IsSomeoneOnExpedition()) expeditionButton.interactable = false;
+        else expeditionButton.interactable = true;
     }
 
     public void SelectedSurvivor(int i)
@@ -104,6 +101,7 @@ public class CharacterUIManager : MonoBehaviour
                 selectedSurvivor.GiveSurvivorWater(1);
                 break;
             case CharacterUIButtonOp.Expedition:
+                if (survivorManager.IsSomeoneOnExpedition()) break;
                 selectedSurvivor.Expedition();
                 break;
         }

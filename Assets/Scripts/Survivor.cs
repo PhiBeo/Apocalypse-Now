@@ -81,6 +81,10 @@ public class Survivor : MonoBehaviour
             hunger -= Global.foodDrain / 2;
             thirst -= Global.waterDrain / 2;
         }
+
+        hunger = Math.Clamp(hunger, 0, Global.maxStats);
+        thirst = Math.Clamp(thirst, 0, Global.maxStats);
+        health = Math.Clamp(health, 0, Global.maxStats);
     }
 
     private void ShelterEventTrigger()

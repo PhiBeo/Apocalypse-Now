@@ -32,4 +32,15 @@ public class SurvivorManager : MonoBehaviour
             gameManager.Gameover();
         }
     }
+
+    public bool IsSomeoneOnExpedition()
+    {
+        for(int i = 0; i < survivors.Count; i++)
+        {
+            if (survivors[i].IsExpedition())
+                return true;
+        }
+
+        return false;
+    }
 }
